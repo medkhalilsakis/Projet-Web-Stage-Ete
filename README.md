@@ -7,6 +7,17 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 - **Composer** (pour le back-end Laravel)
 - **XAMPP** ou un autre serveur de base de données MySQL
 
+## Configuration de la Base de Données
+Démarrer XAMPP
+Assurez-vous que le serveur Apache et MySQL sont démarrés via XAMPP.
+
+Importer la base de données
+Importez le fichier SQL booking_bd.sql dans votre base de données MySQL en suivant ces étapes :
+
+Ouvrez phpMyAdmin en accédant à http://localhost/phpmyadmin
+Créez une nouvelle base de données (par exemple, booking_db)
+Importez le fichier booking_bd.sql dans cette base de données
+
 ## Étapes pour Démarrer le Projet
 
 ```bash
